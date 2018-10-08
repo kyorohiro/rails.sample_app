@@ -1,6 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
+$gray-light-jj: #777;
+
 /* universal */
 
 body {
@@ -43,7 +47,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $gray-light-jj;
 }
 
 p {
