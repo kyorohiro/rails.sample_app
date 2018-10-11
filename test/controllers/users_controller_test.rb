@@ -9,8 +9,8 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
  test "valid signup information" do
     get signup_path
     assert_difference 'User.count', 1 do
-      post users_path, params: { user: { name:  "kyorohiro",
-                                         email: "kyorohiro@gmail.com",
+      post users_path, params: { user: { name:  "kyorohiro+1",
+                                         email: "kyorohiro+1@gmail.com",
                                          password:              "miraigan",
                                          password_confirmation: "miraigan" } }
     end
